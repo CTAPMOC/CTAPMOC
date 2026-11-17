@@ -1,54 +1,55 @@
 <p align="center">
-  <img src="assets/gothic-banner.gif" width="100%" alt="CTAPMOC — анимированный готический собор: движение тумана, бордовый свет и блик на серебряной надписи. Code · Systems · Automation." />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/gothic-banner-ru.png" />
+    <source type="image/webp" srcset="assets/gothic-banner-ru-60.webp" />
+    <img src="assets/gothic-banner-ru-50.gif" width="100%" alt="CTAPMOC. Код · Системы · Автоматизация. Готический собор, туман и серебряный свет." />
+  </picture>
 </p>
 
 <p align="center">
-  <b>Веб-приложения · Работа с данными · Автоматизация</b><br />
-  <sub>Идея → код → инструмент, которым можно пользоваться.</sub>
+  ⚜︎ &nbsp; <a href="#projects">Мастерская</a> &nbsp; ⟡ &nbsp;
+  <a href="#tools">Инструменты</a> &nbsp; ⟡ &nbsp;
+  <a href="https://github.com/CTAPMOC?tab=repositories">Все работы</a> &nbsp; ⚜︎
 </p>
 
-<p align="center">
-  <a href="#selected-work">Проекты</a> &nbsp; · &nbsp;
-  <a href="#toolkit">Технологии</a> &nbsp; · &nbsp;
-  <a href="https://github.com/CTAPMOC?tab=repositories">Все репозитории</a>
-</p>
+<img src="assets/about-ru.png" width="100%" alt="Об авторе. От замысла — к работающему коду. Я — CTAPMOC. Превращаю идеи в веб-приложения и инструменты автоматизации. Работаю с интерфейсами, API и данными. Пишу, проверяю и довожу до рабочего результата." />
 
-<img src="assets/about.png" width="100%" alt="I. About — немного обо мне" />
+<a id="projects"></a>
+<img src="assets/projects-ru.png" width="100%" alt="Мастерская — мои проекты и совместные работы" />
 
-Я — **CTAPMOC**. Разрабатываю веб-приложения и инструменты, которые помогают работать с данными и автоматизировать рутинные задачи.
+<p><a href="https://github.com/CTAPMOC/wordstat-exporter">
+  <img src="assets/wordstat-ru.png" width="100%" alt="Сбор семантики — Wordstat Exporter. Личный проект. Фразы из API Яндекса — в Excel. Остановка, восстановление и выгрузка в любой момент. React, Vite, Node.js, API Яндекса." />
+</a></p>
 
-В моих проектах — интерфейсы, серверная логика, интеграции с API и сохранение результатов. Особое внимание уделяю практическим деталям: понятным действиям, обработке ошибок и возможности продолжить работу после сбоя.
+<p><a href="https://github.com/powder-rose/lead-bot">
+  <img src="assets/leadbot-ru.png" width="100%" alt="Автоматизация заявок — LeadBot. Совместная разработка. Поиск форм на сайтах, фильтры и скриншоты. Работа над скоростью и устойчивостью сценариев. React, Node.js, Playwright." />
+</a></p>
 
-<a id="selected-work"></a>
-<img src="assets/selected-work.png" width="100%" alt="II. Selected work — избранные проекты" />
+<p><a href="https://github.com/CTAPMOC/Kursovaya-prjectpk8">
+  <img src="assets/surveys-ru.png" width="100%" alt="Опросы студентов. Учебный проект. Опросы, роли и результаты в одном приложении. От структуры базы до пользовательского интерфейса. PHP, MySQL, Bootstrap." />
+</a></p>
 
-<a href="https://github.com/CTAPMOC/wordstat-exporter">
-  <img src="assets/wordstat.png" width="100%" alt="Wordstat Exporter — инструмент для сбора семантики. React, Vite, Node.js, Express, Wordstat API." />
-</a>
+<a id="tools"></a>
+<img src="assets/toolkit-ru.png" width="100%" alt="Мои инструменты. Интерфейсы: JavaScript, React, Vite. Сервер: Node.js, Express, PHP. Данные и код: MySQL, REST API, Git." />
 
-**[Wordstat Exporter](https://github.com/CTAPMOC/wordstat-exporter)** — сбор поисковых фраз через API Яндекса и выгрузка в Excel. История запусков, сохранение прогресса, обработка квот, остановка сбора и скачивание промежуточного результата.
+<details>
+<summary>❦ О проектах — текстом и со ссылками</summary>
 
-<a href="https://github.com/powder-rose/lead-bot">
-  <img src="assets/leadbot.png" width="100%" alt="LeadBot — совместный проект: работа с компаниями, сканирование сайтов и автоматизация форм. React, Node.js, Playwright." />
-</a>
+### Об авторе
 
-**[LeadBot](https://github.com/powder-rose/lead-bot)** — совместный проект для работы с компаниями, сканирования сайтов и автоматизации форм обратной связи. Мои задачи в проекте: улучшение поиска форм, фильтров и скриншотов.
+Я — CTAPMOC. Превращаю идеи в веб-приложения и инструменты автоматизации. Работаю с интерфейсами, API и данными. Пишу, проверяю и довожу до рабочего результата.
 
-<a href="https://github.com/CTAPMOC/Kursovaya-prjectpk8">
-  <img src="assets/surveys.png" width="100%" alt="Student Surveys — учебное PHP-приложение для опросов студентов. PHP, MySQL, Bootstrap." />
-</a>
+### Мастерская
 
-**[Student Surveys](https://github.com/CTAPMOC/Kursovaya-prjectpk8)** — учебное приложение для проведения опросов студентов: роли администратора и студента, управление опросами и вопросами, прохождение и просмотр агрегированных результатов.
+- **[Сбор семантики · Wordstat Exporter](https://github.com/CTAPMOC/wordstat-exporter)** — мой инструмент для работы с поисковыми фразами. Получает данные через API Яндекса и выгружает их в Excel. Сбор можно остановить, продолжить позже или скачать уже готовые результаты.
+- **[Автоматизация заявок · LeadBot](https://github.com/powder-rose/lead-bot)** — совместная разработка. Моя работа в проекте связана с поиском форм на сайтах, фильтрами, скриншотами, скоростью и устойчивостью сценариев.
+- **[Опросы студентов](https://github.com/CTAPMOC/Kursovaya-prjectpk8)** — учебное приложение на PHP и MySQL: создание опросов, роли администратора и студента, прохождение и просмотр результатов.
 
-<a id="toolkit"></a>
-<img src="assets/toolkit.png" width="100%" alt="III. Toolkit — технологии" />
+### Мои инструменты
 
-<img src="assets/stack.png" width="100%" alt="JavaScript · React · Vite · Node.js · Express · PHP · MySQL · Git" />
+Интерфейсы — JavaScript, React, Vite. Сервер — Node.js, Express, PHP. Данные и код — MySQL, REST API, Git.
 
-<p align="center">
-  <sub>Frontend: JavaScript, React, Vite &nbsp; · &nbsp; Backend: Node.js, Express, PHP &nbsp; · &nbsp; Data: MySQL, REST API</sub>
-</p>
+</details>
 
-<br />
+<img src="assets/footer-ru.png" width="100%" alt="Из идей — в работающий код." />
 
-<img src="assets/footer.png" width="100%" alt="CTAPMOC — Built with intent." />
